@@ -1,0 +1,322 @@
+.container {
+    width: 100%;
+    height: 700px;
+    border: 1px red solid;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.text {
+    width: 768px;
+    height: 135px;
+    margin: auto;
+    background-color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.parent1 {
+    width: 768px;
+    height: 222.087px;
+
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.child {
+    object-position: center;
+    background-color: white;
+    margin: 15px;
+}
+
+.img1 {
+    width: 60%;
+    border-radius: 4px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow: clip;
+}
+
+.child>p {
+    margin: 15px 0;
+    position: relative;
+    right: 45px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.parent2>p {
+    color: white;
+}
+
+.parent2 {
+    width: 100%;
+    height: 805px;
+    border: 1px red solid;
+    background-color: #000000;
+}
+
+.parent3 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    dding: 0.01em 16px;
+    width: 768px;
+    height: 330px;
+}
+
+
+h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.parent4 {
+    margin: 20px 0;
+}
+.child1{
+    margin-bottom: 16px;
+    font-size: 18px;
+    float: left;
+    font-family: "Lato", sans-serif;
+    line-height: 1.5;
+}
+.input{
+    padding: 0 8px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    left: 150px;
+}
+.child3 , .child4{
+    padding: 0 8px;
+    float: left;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    
+}
+.inputName , .inputEmail{
+    padding: 8px;
+    display: block;
+    width: 100%;
+    overflow: visible;
+    font: inherit;
+    margin: 0;
+    padding-block: 1px;
+    padding-inline: 2px;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    border-style: solid;
+}
+.inputMessage{
+    padding: 8px;
+    display: block;
+    width: 385px;
+    overflow: visible;
+    font: inherit;
+   position: relative;
+    left: 158px;
+    top: 10px;
+    border-style:solid;
+    
+}
+.inputButton{
+    color: #fff;
+    background-color: #000;
+    float: right;
+    margin-bottom: 16px ;
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-appearance: button;
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    padding-block: 1px;
+    padding-inline: 6px;
+    padding: 8px 16px;
+    margin: 16px 0;
+
+}
+
+
+.child5{
+    width: 766px; ;
+    height: 117px; ;
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+    padding: 0.01em 16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff !important;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    content: "";
+    display: table;
+    clear: both;
+}
+.child6{
+    color: #757575 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.list{
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px !important;
+    color: #757575 !important;
+    list-style-type: none;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative;
+    right: 35px;
+}
+span{
+    color: #fff !important;
+    background-color: #f44336 !important;
+    margin-left: 16px !important;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.child7{
+    padding: 0 8px;
+    margin-bottom: 16px !important;
+    width: 33.33333%;
+    float: left;
+    color: #fff !important;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5
+}
+img{
+    vertical-align: middle;
+    border-style: none;
+    overflow: clip;
+    
+}
+.child8{
+   color: #000 !important;
+    background-color: #fff !important;
+    padding: 0.01em 16px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+.child8>p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: #000 !important;
+    ont-family: "Lato", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.child8>button{
+    color: #fff !important;
+    background-color: #000 !important;
+    margin-bottom: 16px !important;
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-appearance: button;
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    padding-block: 1px;
+    padding-inline: 6px;
+}
+button:hover{
+    background-color: gray !important;
+    color: black !important ;
+}
+.child10{
+    display: flex;
+}
+.child8>button{
+    padding: 8px 16px;
+}
