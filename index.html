@@ -9,43 +9,65 @@
 </head>
 
 <body>
-    <div class="container"></div>
 
-    <h1>THE BAND</h1>
+    <header>
+        <ul>
+            <li class="HOME"><a href="#HOME">HOME</a></li>
+            <li class="BAND"><a href="#BAND">BAND</a></li>
+            <li class="TOUR"><a href="#TOUR">TOUR</a></li>
+            <li class="CONTACT"><a href="#CONTACT">CONTACT</a></li>
 
-    <p>We love music</p>
+        </ul>
 
-    <div class="text">
-        We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-        qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat
-
+    </header>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="https://www.w3schools.com/w3images/chicago.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="https://www.w3schools.com/w3images/la.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="https://www.w3schools.com/w3images/ny.jpg" alt="Image 3"></div>
+        </div>
     </div>
 
-    <div class="parent1">
+    <div id="BAND">
+        <h1>THE BAND</h1>
 
-        <div class="child">
-            <p>Name</p>
-            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="random name " class="img1">
+        <p>We love music</p>
+
+        <div class="text">
+            We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa
+            qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat
+
         </div>
 
-        <div class="child">
-            <p>Name</p>
-            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="random name" class="img1">
-        </div>
+        <div class="parent1">
 
-        <div class="child">
-            <p>Name</p>
-            <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="random name" class="img1">
-        </div>
+            <div class="child">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="random name " class="img1">
+            </div>
 
+            <div class="child">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="random name" class="img1">
+            </div>
+
+            <div class="child">
+                <p>Name</p>
+                <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="random name" class="img1">
+            </div>
+
+        </div>
     </div>
 
-    <div class="parent2">
+    <div class="parent2" id="TOUR">
         <div class="child5">
             <h2>TOUR DATES</h2>
             <p>Remember to book your tickets!</p>
@@ -101,53 +123,62 @@
 
     </div>
 
-    <div class="parent3">
+    <div class="parent3" id="CONTACT">
         <h3>CONTACT</h3>
         <p>Fan? Drop a note!</p>
         <br>
-        <div class="child1">
-            <i class="fa-solid fa-location-dot" style="width: 30px;"></i>
-            Chicago,Us
-            <br>
-            <i class="fa-solid fa-phone" style="width: 30px;"></i>
-            phone:+00 151515
-            <br>
-            <i class="fa-solid fa-envelope" style="width: 30px;"></i>
-            Email:mail@mai.com
-            <br>
-        </div>
-
-
-        <div class="child2">
-            <form action="" target="_blank">
-                <div class="input" style="margin: 0 -16px 8px -16px;">
-                    <div class="child3">
-                        <input type="text" placeholder="Name" required class="inputName" name="Name">
+        <div class="test">
+            <div class="child1">
+                <i class="fa-solid fa-location-dot" style="width: 30px;"></i>
+                Chicago,Us
+                <br>
+                <i class="fa-solid fa-phone" style="width: 30px;"></i>
+                phone:+00 151515
+                <br>
+                <i class="fa-solid fa-envelope" style="width: 30px;"></i>
+                Email:mail@mai.com
+                <br>
+            </div>
+            <div class="child2">
+                <form action="" target="_blank" class="test2">
+                    <div class="input" style="margin: 0 -16px 8px -16px;">
+                        <div class="child3">
+                            <input type="text" placeholder="Name" required class="inputName" name="Name">
+                        </div>
+                        <div class="child4">
+                            <input type="email" placeholder="Email" required class="inputEmail" name="Email">
+                        </div>
+                        
                     </div>
-                    <div class="child4">
-                        <input type="email" placeholder="Email" required class="inputEmail" name="Email">
+                    <input type="text" placeholder="Message" required class="inputMessage" name="Message">
+                    <div>
+
+                        <button type="submit" class="inputButton">SEND</button>
                     </div>
-
-                </div>
-                <input type="text" placeholder="Message" required class="inputMessage" name="Message">
-                <button type="submit" class="inputButton">SEND</button>
-
-            </form>
-
+                    
+                </form>
+                
+            </div>
         </div>
     </div>
 
     <div class="parent4">
         <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
     </div>
-    <!-- <i class="fa-brands fa-square-facebook"></i>
-    <i class="fa-brands fa-instagram"></i>
-    <i class="fa-brands fa-square-snapchat"></i>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-linkedin"></i>
-    <i class="fa-brands fa-youtube"></i>
-    <P>Powered by </P> -->
+    <footer>
+        <div class="icons">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-snapchat"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <P>Powered by </P>
 
+    </footer>
+
+<script src="/index.js"></script>
 
 </body>
 
